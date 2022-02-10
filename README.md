@@ -94,6 +94,10 @@ terraform {
 #----------------------------------------------------------------------
 ### Bash script for user data - setup.sh
 #-----------------------------------------------------------------
+
+- A simple bash script to install apache and to create a index.php file in document root. 
+  The website will be loading the hostname of instances which will help to identify the alb working much easier
+
 ```sh
 #!/bin/bash
 
