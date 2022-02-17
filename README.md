@@ -13,11 +13,11 @@ Here we are going to call a custom vpc module and configure a application load b
 -Basic knowledge in AWS services such as VPC, ec2-instance, s3 bucket and bash script
 
 ### Used Languages
-
+```sh
 Terraform - IAC Tool
 
 Bash script
-
+```
 
 #-----------------------------------------
 ### Cloning the vpc module 
